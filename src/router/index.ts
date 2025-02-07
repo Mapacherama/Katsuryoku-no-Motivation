@@ -11,6 +11,7 @@ import { routes } from 'vue-router/auto-routes'
 
 // Import LandingsPage explicitly
 import LandingsPage from '@/pages/LandingsPage.vue'
+import HomePage from '@/pages/HomePage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/',
       name: 'Landing',
       component: LandingsPage,
+    },
+    {
+      path: '/home',
+      name: 'Home',
+      component: HomePage,
     },
   ]),
 })

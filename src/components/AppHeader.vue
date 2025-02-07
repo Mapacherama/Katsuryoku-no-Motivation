@@ -6,13 +6,16 @@
           <span class="header-subtext">Motivation Hub</span>
         </div>
         <ul class="nav-links">
-          <li><a href="#art">Art</a></li>
-          <li><a href="#commercial">Commercial</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#podcasts">Podcasts</a></li>
+          <li><a href="#audiobooks">Audiobooks</a></li>
+          <li><a href="#youtube">YouTube Channels</a></li>
+          <li><a href="#movies">Movies & Documentaries</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </nav>
     </header>
+
   </template>
   
   <script setup>

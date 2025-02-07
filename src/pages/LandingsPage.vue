@@ -16,7 +16,7 @@
         </div>
       </div>
       
-      <v-btn class="cta-button">Start Your Journey</v-btn>
+      <v-btn class="cta-button" to="/home">Start Your Journey</v-btn>
     </div>
   </template>
   
