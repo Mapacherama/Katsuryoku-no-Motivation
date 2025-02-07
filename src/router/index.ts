@@ -12,7 +12,7 @@ import { routes } from 'vue-router/auto-routes'
 // Import LandingsPage explicitly
 import LandingsPage from '@/pages/LandingsPage.vue'
 import HomePage from '@/pages/HomePage.vue'
-
+import DiscoverPage from '@/pages/DiscoverPage.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: setupLayouts([
@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/home',
       name: 'Home',
       component: HomePage,
+    },
+    {
+      path: '/discover',
+      name: 'Discover',
+      component: DiscoverPage,
     },
   ]),
 })

@@ -8,10 +8,11 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#generate">Generate</a></li>
-          <li><a href="#discover">Discover</a></li>
+          <li><router-link to="/discover">Discover</router-link></li>
         </ul>
       </nav>
     </header>
+
   </template>
   
   <script setup>
