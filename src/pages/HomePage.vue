@@ -8,25 +8,25 @@
       </section>
       
       <section class="categories">
-        <div class="category category-left" id="books" style="background-image: url('/path-to-books-image.jpg');">
-          <h3>Books</h3>
-          <p>Explore motivational books that inspire action.</p>
+        <div class="category category-left" id="books" style="background-image: url('https://atletischleven.nl/wp-content/uploads/2024/04/Boekrecensie-Never-Finished-van-David-Goggins.png.webp');">
+          <h3 class="category-title">Books</h3>
+          <p class="category-description">Explore motivational books that inspire action.</p>
         </div>
-        <div class="category category-right" id="podcasts" style="background-image: url('/path-to-podcasts-image.jpg');">
-          <h3>Podcasts</h3>
-          <p>Listen to powerful stories and success journeys.</p>
+        <div class="category category-right" id="podcasts" style="background-image: url('https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/df/9e/18/df9e1841-39c6-1274-2901-ad46c93d4402/mza_12697705062075299633.jpg/1200x1200bf-60.jpg');">
+          <h3 class="category-title">Podcasts</h3>
+          <p class="category-description">Listen to powerful stories and success journeys.</p>
         </div>
-        <div class="category category-left" id="audiobooks" style="background-image: url('/path-to-audiobooks-image.jpg');">
-          <h3>Audiobooks</h3>
-          <p>Learn on the go with curated motivational audiobooks.</p>
+        <div class="category category-left" id="audiobooks" style="background-image: url('https://m.media-amazon.com/images/I/81gByv+FhjL._UF894,1000_QL80_.jpg');">
+          <h3 class="category-title">Audiobooks</h3>
+          <p class="category-description">Learn on the go with curated motivational audiobooks.</p>
         </div>
-        <div class="category category-right" id="youtube" style="background-image: url('/path-to-youtube-image.jpg');">
-          <h3>YouTube Channels</h3>
-          <p>Watch motivational content from top creators.</p>
+        <div class="category category-right" id="youtube" style="background-image: url('https://yt3.googleusercontent.com/KfDl2-ci5OXoqJXt4sivRCNZJZvT9P-SqIZxFjp-yrbmTioIc8Noep9eM_iB9dsyXIlkpoMe=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj');">
+          <h3 class="category-title">YouTube Channels</h3>
+          <p class="category-description">Watch motivational content from top creators.</p>
         </div>
         <div class="category category-left" id="movies" style="background-image: url('/path-to-movies-image.jpg');">
-          <h3>Movies & Documentaries</h3>
-          <p>Be inspired by powerful films and true stories.</p>
+          <h3 class="category-title">Movies & Documentaries</h3>
+          <p class="category-description">Be inspired by powerful films and true stories.</p>
         </div>
       </section>
     </div>
@@ -89,14 +89,22 @@
     border-radius: 12px;
     text-align: center;
     transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
-    color: #ff4c4c;
-    font-weight: bold;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 45%;
+  }
+  
+  .category-title {
+    color: #ff4c4c;
+    font-weight: bold;
+  }
+  
+  .category-description {
+    color: #A9A9A9;
+    font-weight: normal;
   }
   
   .category-left {
@@ -112,3 +120,4 @@
     background-blend-mode: overlay;
   }
   </style>
+  
