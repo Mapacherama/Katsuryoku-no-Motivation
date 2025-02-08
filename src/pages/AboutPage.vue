@@ -34,11 +34,12 @@
   <script setup>
   const team = [
     {
-      name: "[Member Name]",
-      role: "[Role]",
-      bio: "[Short bio about the team member]",
-      image: "[Image URL]",
+      name: "Jerome Tesselaar",
+      role: "Developer",
+      bio: "I am a developer who is passionate about creating useful and efficient applications.",
+      image: "src/assets/profile.jpg",
     },
+
   ];
   </script>
   
