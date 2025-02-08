@@ -21,9 +21,9 @@
     {
       title: "Books",
       items: [
-        { title: "Atomic Habits", info: "James Clear", image: "/path-to-book1.jpg" },
-        { title: "Can't Hurt Me", info: "David Goggins", image: "/path-to-book2.jpg" },
-        { title: "Deep Work", info: "Cal Newport", image: "/path-to-book3.jpg" }
+        { title: "Atomic Habits", info: "James Clear", image: "https://m.media-amazon.com/images/I/81ANaVZk5LL.jpg" },
+        { title: "Can't Hurt Me", info: "David Goggins", image: "https://m.media-amazon.com/images/I/81gTRv2HXrL.jpg" },
+        { title: "Deep Work", info: "Cal Newport", image: "https://m.media-amazon.com/images/I/81JJ7fyyKyS._AC_UF1000,1000_QL80_.jpg" }
       ]
     },
     {

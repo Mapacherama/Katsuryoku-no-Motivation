@@ -6,12 +6,15 @@
           <span class="header-subtext">Motivation Hub</span>
         </div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
+          <li><router-link to="/about">About</router-link></li>
           <li><a href="#generate">Generate</a></li>
           <li><router-link to="/discover">Discover</router-link></li>
+          <li><router-link to="/reverse">Reverse</router-link></li>
+
         </ul>
       </nav>
     </header>
+
 
   </template>
   
