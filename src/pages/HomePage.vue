@@ -59,8 +59,8 @@
     text-align: center;
     margin-top: 0;
     padding-top: 0;
-    background: url('/path-to-your-image.png') no-repeat center center;
-    background-size: cover;
+    background: url('src/assets/KeepHammering.jpg') no-repeat center center;
+    /* background-size: cover; */
     width: 100%;
     padding: 100px 0;
 }
@@ -68,15 +68,20 @@
 .hero-title {
     font-size: 3rem;
     font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
 }
 
 .hero-title span {
     color: #ff4c4c;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
 }
 
 .hero-description {
-    font-size: 1.2rem;
-    opacity: 0.8;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
     max-width: 800px;
     margin: auto;
 }
