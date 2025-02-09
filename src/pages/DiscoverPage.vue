@@ -29,17 +29,17 @@
     {
       title: "Podcasts",
       items: [
-        { title: "The Tim Ferriss Show", info: "Self-improvement", image: "/path-to-podcast1.jpg" },
-        { title: "Huberman Lab", info: "Science & Health", image: "/path-to-podcast2.jpg" },
-        { title: "The Diary of a CEO", info: "Business & Mindset", image: "/path-to-podcast3.jpg" }
+        { title: "The Tim Ferriss Show", info: "Self-improvement", image: "https://thearmyleader.co.uk/wp-content/uploads/2017/07/Tim-Ferris-Show.png" },
+        { title: "Huberman Lab", info: "Science & Health", image: "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/61/35/d6/6135d6e9-5d67-86db-e984-ed74d5646c5d/mza_3545313863246849826.jpeg/1200x1200bf-60.jpg" },
+        { title: "The Diary of a CEO", info: "Business & Mindset", image: "https://cdn-images.dzcdn.net/images/talk/2f29b18762c16f06c558d5842988014e/0x1900-000000-80-0-0.jpg" }
       ]
     },
     {
       title: "Movies & Documentaries",
       items: [
-        { title: "The Last Dance", info: "Michael Jordan Documentary", image: "/path-to-movie1.jpg" },
-        { title: "Free Solo", info: "Rock Climbing Documentary", image: "/path-to-movie2.jpg" },
-        { title: "Inception", info: "Christopher Nolan", image: "/path-to-movie3.jpg" }
+        { title: "The Last Dance", info: "Michael Jordan Documentary", image: "https://static.wixstatic.com/media/a27d24_5c5d7acb69df43058d7904ebb212737b~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_85,usm_0.66_1.00_0.01/a27d24_5c5d7acb69df43058d7904ebb212737b~mv2.jpg" },
+        { title: "Free Solo", info: "Rock Climbing Documentary", image: "https://i.ytimg.com/vi/7XhsuT0xctI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBJBx0DtA5QfcLduoaYLR9x_1L6Cg" },
+        { title: "Inception", info: "Christopher Nolan", image: "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/12/Inception.jpg" }
       ]
     }
   ];
